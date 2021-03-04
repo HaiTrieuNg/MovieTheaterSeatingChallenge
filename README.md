@@ -1,14 +1,14 @@
 # MovieTheaterSeatingChallenge
 
 To run the program on command line:
+<br>
+-   cd to the program directory
+<br>
+-   type javac main.java
     <br>
-    -  cd to the program directory
-   <br>
-   -   type javac main.java
-    <br>
-    -  type java main "directory to your input file"
-    <br>
-    exp: java main "input.txt"
+-   type java main "directory to your input file"
+<br>
+exp: java main "input.txt"
 <br><br> 
 s : available seats
 <br>
