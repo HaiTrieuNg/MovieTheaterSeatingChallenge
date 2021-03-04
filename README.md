@@ -37,4 +37,6 @@ R003 4
 R004 3
 <br>
 
-![Demo](https://github.com/HaiTrieuNg/Turing-Machine-TM-that-simulates-DFA/blob/main/Images/Screenshot%20(604).png)
+![Demo](https://github.com/HaiTrieuNg/Turing-Machine-TM-that-simulates-DFA/blob/main/Images/Screenshot%20(606).png)
+
+![Demo](https://github.com/HaiTrieuNg/Turing-Machine-TM-that-simulates-DFA/blob/main/Images/Screenshot%20(605).png)
