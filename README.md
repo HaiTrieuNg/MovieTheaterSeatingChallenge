@@ -7,7 +7,9 @@ To run the program on command line:
     exp: java main "input.txt"
 <br><br> 
 s : available seats
+<br>
 X : taken seat (unavailable)
+<br>
 B : buffer seats (unavailable)
 <br><br>
 - Assumed that input file acts as user. Since real users don't chose the seats row by row, the program implemented random seat chosing behavior.
@@ -19,5 +21,15 @@ B : buffer seats (unavailable)
 - Output file will be created as the program done executes in the same directory as the source code.
 - Multiple runs will be written to the same output file once it created after the first time.
 - Input file can be from any directory, doesn't have to be in the same file as the source code.
+<br><br>
+
+Under is an example of how the grid looks like after running the program with input file :<br>
+R001 2
+<br>
+R002 4
+<br>
+R003 4
+<br>
+R004 3
 
 ![Demo](https://github.com/HaiTrieuNg/Turing-Machine-TM-that-simulates-DFA/blob/main/Images/Screenshot%20(604).png)
