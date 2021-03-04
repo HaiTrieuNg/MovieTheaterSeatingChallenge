@@ -16,11 +16,20 @@ public class findSeat {
 		 g = new grid();
 	}
 	
-	public grid getGrid () {
+	public grid getGrid () 
+	/**
+	 * return the grid
+	 */
+	{
 		return this.g;
 	}
 	
-	public void writeOutput (String s) {
+	
+	public void writeOutput (String s)
+	/**
+	 * create and write to output file
+	 */
+	{
 		try {
 		      File myObj = new File("output.txt");
 		      if (myObj.createNewFile()) {
@@ -55,7 +64,12 @@ public class findSeat {
 		}
 	}
 	
-	public String choosenSeats(String orderNum, Integer n) {
+	public String choosenSeats(String orderNum, Integer n)
+	/**
+	 * Chose random row and seats from the list of available ways to make n consecutive seats
+	 * call writeOutput to write result to output file
+	 */
+	{
 		Map<Integer, ArrayList<ArrayList<Integer>>> allOptions = new TreeMap<Integer, ArrayList<ArrayList<Integer>>>(g.allRowsOptions(n));
 		
 		if(allOptions.size() > 0) {		

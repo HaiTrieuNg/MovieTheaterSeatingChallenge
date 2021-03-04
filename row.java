@@ -3,10 +3,13 @@ import java.util.ArrayList;
 public class row {
 	
 	private seat[] row;
-	private int length;
 	private int rowIndex;
 		
-	public row(int rowIndex){
+	public row(int rowIndex)
+	/**
+	 * Constructor
+	 */
+	{
 		this.row = new seat[20];
 		this.rowIndex = rowIndex;
 		
@@ -15,19 +18,38 @@ public class row {
 		}
 	}
 	
-	public int getLength() {
+	public int getLength()
+	/**
+	 * return numbers of seat in row (should be 20)
+	 */
+	{
 		return row.length;
 	}
 	
-	public seat getSeat (int index) {
+	
+	public seat getSeat (int index) 
+	/**
+	 * return the specific seat in the row
+	 */
+	{
 		return this.row[index];
 	}
 	
-	public String getSeatState(int index) {
+	
+	public String getSeatState(int index) 
+	/**
+	 * return the state of a specific seat in the row
+	 */
+	{
 		return row[index].getState();
 	}
 	
-	public ArrayList<Integer> openSeats() {
+	
+	public ArrayList<Integer> openSeats() 
+	/**
+	 * return a list of all open seats in the row
+	 */
+	{
 		
 		ArrayList<Integer> openList = new ArrayList<Integer>();
 		for (seat s : this.row) {
@@ -39,15 +61,30 @@ public class row {
 		return openList;
 	}
 	
-	public void setTakenState(int index) {
-		row[index].setTaken();;
+	
+	public void setTakenState(int index)
+	/**
+	 * set a seat in the row as taken
+	 */
+	{
+		row[index].setTaken();
 	}
 	
-	public void setBufferedState(int index) {
-		row[index].setBuffered();;
+	
+	public void setBufferedState(int index) 
+	/**
+	 * set a seat in the row as buffer
+	 */
+	{
+		row[index].setBuffered();
 	}
 	
-	public ArrayList<ArrayList<Integer>> nConsecutiveWays (int n) {
+	
+	public ArrayList<ArrayList<Integer>> nConsecutiveWays (int n)
+	/**
+	 * return a list of ways to make n consecutive seats from the available seats in the row
+	 */
+	{
 		
 		ArrayList<ArrayList<Integer>>  consecutiveWays = new ArrayList<ArrayList<Integer>>();
 		
@@ -84,9 +121,5 @@ public class row {
 		
 		return consecutiveWays;
 	}
-	
-	
-	
-	
-	
+
 }

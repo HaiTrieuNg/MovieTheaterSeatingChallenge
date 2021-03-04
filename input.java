@@ -1,8 +1,3 @@
-import java.io.BufferedReader;
-import java.io.DataInputStream;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
-
 public class input {
 	private String o;
 	private String n;
