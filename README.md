@@ -27,7 +27,7 @@ B : buffer seats (unavailable)
 - Input file can be from any directory, doesn't have to be in the same file as the source code.
 <br><br>
 
-Under is an example of how the grid looks like after running the program with input file :<br>
+Under is an example of how the grid and output file looks like after running the program with input file :<br>
 R001 2
 <br>
 R002 4
