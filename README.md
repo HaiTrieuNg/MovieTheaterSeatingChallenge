@@ -3,11 +3,11 @@
 My first thought was to fill the seats rows by rows
 <br>pros: the theater can fill the most seat possible
 <br>cons: unrealistic since in real life, users get to chose their seat. Therefore, the seat chosen will be random.
-<br>
-The thought of implement a program that simulate realistic behavior lead me to decide on filling the seats randomly.
+<br><br>
+The thought of implement a program that simulate realistic behavior lead me to decide to work on a more complicated implementation - filling the seats randomly.
 <br>pros: this is the situation in real life
 <br>cons: the theater won't be as full. There might be empty seats.
-
+<br>
 To run the program on command line:
 <br>
 -cd to the program directory
