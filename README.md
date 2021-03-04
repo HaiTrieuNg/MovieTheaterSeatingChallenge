@@ -2,11 +2,11 @@
 
 To run the program on command line:
 <br>
--   cd to the program directory
+-cd to the program directory
 <br>
--   type javac main.java
-    <br>
--   type java main "directory to your input file"
+-type javac main.java
+<br>
+-type java main "directory to your input file"
 <br>
 exp: java main "input.txt"
 <br><br> 
@@ -35,5 +35,6 @@ R002 4
 R003 4
 <br>
 R004 3
+<br>
 
 ![Demo](https://github.com/HaiTrieuNg/Turing-Machine-TM-that-simulates-DFA/blob/main/Images/Screenshot%20(604).png)
