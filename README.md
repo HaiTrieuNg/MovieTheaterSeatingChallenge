@@ -17,6 +17,10 @@ To run the program on command line:
 -type: java main "directory to your input file"
 <br>
 exp: java main "input.txt"
+<br>
+If you have issue with Java version and enviroment variables, this link might be helpful:
+<br>
+https://webdeasy.de/en/error-a-jni-error-has-occured-how-to-fix-this-java-error/
 <br><br> 
 s : available seats
 <br>
